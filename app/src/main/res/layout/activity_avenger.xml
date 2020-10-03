@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgbottom"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="155dp"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/hulk" />
+
+    <TextView
+        android:id="@+id/bottomline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="we are available at all these platforms"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="#FF4D00"
+        android:layout_above="@+id/imgbottom"/>
+    <TextView
+        android:id="@+id/linkyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="youtube.com/ams"
+        android:layout_marginLeft="160dp"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#00EEEC"
+        android:layout_below="@+id/imgbottom"/>
+
+
+    <TextView
+        android:id="@+id/topline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       Enter the following details to make your own account"
+        android:layout_margin="30dp"
+        android:layout_alignParentTop="true"/>
+    <EditText
+        android:id="@+id/inputtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="enter your name here"
+        android:layout_above="@+id/phno"
+        />
+    <EditText
+        android:id="@+id/phno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your phone number here"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:layout_above="@+id/passwrd"/>
+    <EditText
+        android:id="@+id/passwrd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter you password"
+        android:layout_margin="20dp"
+        android:layout_above="@+id/prcdbtn"/>
+    <Button
+        android:id="@+id/prcdbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="click here to proceed"
+        android:layout_marginTop="20dp"
+        android:background="#FF4D00"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_above="@+id/bottomline"/>
+</RelativeLayout>

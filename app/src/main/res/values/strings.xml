@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">avengers</string>
+    <string name="prefrences_file"> avenger prefrence</string>
+</resources>

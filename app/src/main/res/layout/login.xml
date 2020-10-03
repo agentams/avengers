@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="#ffffff">
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:src="@drawable/logo" />
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img1"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:hint="Enter phone number"
+        android:textAlignment="center"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:maxLines="1"
+        />
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:hint="enter password"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:maxLength="12"
+        android:maxLines="1"
+        />
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:layout_marginTop="20dp"
+        android:background="#03DAC5"
+        android:padding="5dp"
+        android:text="PROCEED"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/fpss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b1"
+        android:text="forgot password?"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/uregis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        />
+
+
+
+</RelativeLayout>
